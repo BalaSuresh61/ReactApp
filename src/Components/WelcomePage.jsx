@@ -19,7 +19,7 @@ const WelcomePage = () => {
                         ))}
                     </div>
                 </div><div className="information">
-                    <iframe src='../../public/Bala_Suresh_resume.pdf' height="100%" width="100%"></iframe>
+                    <iframe src='src\assets\Bala_Suresh_resume.pdf' height="100%" width="100%"></iframe>
                 </div>
             </div>
         </div>
