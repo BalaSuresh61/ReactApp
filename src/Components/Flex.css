@@ -1,0 +1,26 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color:lightcyan;
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-gallary{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 2px solid black;
+}
+.img-gallary img{
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    border-radius: 15px;
+    flex-grow: 1;
+}

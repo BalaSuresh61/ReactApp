@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+*{
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;}
+
+.advice-container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8EFBA;
+    color: #000;
+    /* scrollbar-width: 0; */
+}
+.advice-app-container{
+    padding: 20px;
+    height: 200px;
+    min-width: 400px;
+    /* width: 700px; */
+    display: flex;
+    background-color: #7ed6df;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 10px;
+
+}
+.advice-app-container h3{
+    font-weight: 700;
+    text-align: center;
+    color: #182C61;
+}
+.advice-app-container button{
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #82589F;
+    color: #fff;
+    font-weight: 600;
+}
+.advice-app-container p{
+    font-weight: 500;
+}
+.advice-app-container p b{
+    background-color: #fff;
+    padding:2px 4px ;
+    border-radius: 50%;
+}

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.calander{
+    background-color: #182C61;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;    
+    font-family:  "Open Sans", sans-serif;
+    font-weight: 500;
+}
+.calander-app-container{
+    width: 400px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 50px auto;
+    border-radius: 4px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1B9CFC;
+    border-radius:4px 4px 0px 0px;
+    border: 1px solid #182C61;
+    padding: 5px;
+}
+.header button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    font-size: 20px;
+}
+.header button img{
+    height: 20px;
+}
+.header select{
+    padding: 0 8px;
+    font-size: 18px;
+    border-radius: 4px;
+    margin: 0 8px
+    outline
+}
+.header select:focus{
+    outline: none;
+}
+.daysOfWeeks{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    background-color:#1B9CFC;
+    border-radius: 0px 0px 4px 4px;
+    color: #fff;
+}
+.days{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    text-align: center;
+    gap: 8px;
+    padding: 5px;
+    margin-top: 10px;
+}
+.day,
+.empty{
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    box-shadow: 0.5px 0.5px 0.3px;
+}
+.empty{
+    background-color: #f9f9f9;
+    box-shadow: none;
+}
+.day.current{
+    background-color: tomato;
+    color: #fff;
+    box-shadow: 1px 1px 5px;
+}
+.day:hover{
+    background-color: #1B9CFC;
+    color: #fff;
+}

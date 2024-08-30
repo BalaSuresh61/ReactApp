@@ -1,0 +1,99 @@
+
+.welcome{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #004080;
+    flex-wrap: wrap;
+    /* overflow: hidden; */
+
+}
+.welcome-container{
+    height: 90vh;
+    width: 95%;
+    border: 1px solid;
+    display: flex;
+    background-color: white;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}
+.information{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid; */
+    border-radius: 15px;
+    /* overflow: hidden; */
+}
+
+.projects{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid; */
+    padding: 10px;
+    border-radius: 15px 0px 15px 15px;
+    overflow: scroll;
+    scrollbar-width: none;
+    /* background-image: linear-gradient(90deg,#25CCF7,#1B9CFC); */
+}
+.react-projects{
+    padding: 20px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: scroll; */
+}
+.project{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    padding: 10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:#FFF;
+    overflow: hidden;
+    background-image: linear-gradient(180deg,#25CCF7,#1B9CFC);
+    box-shadow: 5px 5px 5px;
+}
+.links{
+    display: flex;
+    gap: 15px;
+    padding: 10px;
+    justify-content: space-around;
+    /* margin-left: 30px; */
+}
+.project p{
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+
+
+@media (max-width: 1000px) {
+    .welcome{
+        height: 150vh;
+        overflow: scroll;
+        scrollbar-width: none;
+    }
+    
+    .welcome-container {
+      flex-direction: column;
+      height: 170vh;
+      padding-top: 30px;
+      padding: 20px;
+    }
+    .information,
+    .projects{
+        height: 70vh;
+        width: 100%;
+    }
+  }

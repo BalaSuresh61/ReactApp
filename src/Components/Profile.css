@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    min-height: 100vh;  
+    margin: 0;
+    color: whitesmoke;
+}
+
+.card-container{
+    background-image: linear-gradient(125deg,blue,rgb(244, 116, 4));
+    height: 70vh;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.pro.online{
+    position: absolute;
+    left: 3%;
+    top: 8%;
+    padding: 0.5px;
+    border-radius: 10px;
+    font-size: 12px;
+    width: 50px;
+    text-align: center;
+}
+.img{
+    border-radius: 50%;
+    border: 3px solid blue;
+    padding: 10px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.buttons button.primary{
+    background-color: blue;
+    padding: 5px 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+    color: white;
+    border: 1px solid lightskyblue;
+    border-radius: 4px;
+}
+.buttons button.primary.outline{
+    background-color: transparent;
+}
+
+.card-container h3{
+    padding: 5px 10px;
+    /* margin: 5px 0px; */
+}
+.skills h6{
+    /* margin: 10px 0; */
+    padding: 5px ;
+    text-transform: uppercase;
+    font-size: medium;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: left; 
+    padding: 10px;
+    color: white;
+}
+.skills ul{
+    list-style-type: none;
+    /* padding-left: 25px; */
+}
+.skills ul li{
+    display: inline-block;
+    border: 1px solid rgb(12, 246, 156);
+    border-radius: 8px;
+    padding: 2px 5px;
+    margin: 0 10px 8px 0;
+    font-size: 12px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

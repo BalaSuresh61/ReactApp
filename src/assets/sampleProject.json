@@ -1,0 +1,39 @@
+[
+    {
+        "name":"FoodCart","endpoint":"/foodCart","content":"Simple Design of Food Delivery App"
+    },
+    {
+        "name":"Calander","endpoint":"/calander","content":"View Calander"
+    },
+    {
+        "name":"Profile","endpoint":"/profile","content":"View Profile"
+    },
+    {
+        "name":"Weather","endpoint":"/weather","content":"Check your current weather"
+    },
+    {
+        "name":"Advice","endpoint":"/advice","content":"Get your free advice"
+    },
+    {
+        "name":"QRGenerator","endpoint":"/QrGenerator","content":"Genarate QR"
+    },
+    {
+        "name":"BMI","endpoint":"/bmi","content":"Calculate your BMI"
+    },
+    {
+        "name":"CurrencyConverter","endpoint":"/currencyConverter","content":"Check your currency value"
+    },
+    {
+        "name":"DigitalClock","endpoint":"/digitalClock","content":"Check Time"
+    },
+    {
+        "name":"PasswordGenerator","endpoint":"/passwordGenerator","content":"Generate a strong password"
+    },
+    {
+        "name":"FAQ","endpoint":"/faq","content":"Simple FA Questions"
+    },
+    {
+        "name":"Quiz","endpoint":"/quiz","content":"Simple Quiz"
+    }
+    
+]

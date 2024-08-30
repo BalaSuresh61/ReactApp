@@ -1,0 +1,53 @@
+.header {
+    width: 100%;
+    height: 50px;
+    background-color: #30336b;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    /* position: fixed;
+    top: 0; */
+    position: -webkit-sticky;
+    position: sticky;
+
+}
+
+.header .logo {
+    color: #fff;
+    font-size: 20px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.header .brand_name {
+    color: #fff;
+}
+
+.header .logo img {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.header ul li {
+    list-style-type: none;
+    color: #fff;
+}
+
+.header ul {
+    display: inline-flex;
+    padding: 5px;
+    gap: 10px;
+}
+
+.header ul li a {
+    color: #fff;
+}
+.cart-count{
+    font-size: 11px;
+    padding: 5px;
+    background-color: black;
+    border-radius: 50px;
+}

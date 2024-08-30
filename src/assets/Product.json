@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "img": "https://www.app.tutorjoes.in/img/food/89.jpg",
+        "foodName": "Pepperoni Pizza",
+        "price": 5.99,
+        "shopName": "Burger King",
+        "latest": "yes"
+    },
+    {
+        "id": 2,
+        "img": "https://www.app.tutorjoes.in/img/food/26.jpg",
+        "foodName": "Alfredo Pastha",
+        "price": 8.99,
+        "shopName": "Pizza Hut",
+        "latest": "no"
+    },
+    {
+        "id": 3,
+        "img": "https://www.app.tutorjoes.in/img/food/124.jpg",
+        "foodName": "Paper Roste Dosa",
+        "price": 12.99,
+        "shopName": "Sushi Express",
+        "latest": "yes"
+    },
+    {
+        "id": 4,
+        "img": "https://www.app.tutorjoes.in/img/food/133.jpg",
+        "foodName": "veg seekh kebab",
+        "price": 6.49,
+        "shopName": "Taco Bell",
+        "latest": "no"
+    },
+    {
+        "id": 5,
+        "img": "https://www.app.tutorjoes.in/img/food/9.jpg",
+        "foodName": "Chicken 65",
+        "price": 10.99,
+        "shopName": "Olive Garden",
+        "latest": "yes"
+    },
+    {
+        "id": 6,
+        "img": "https://www.app.tutorjoes.in/img/food/80.jpg",
+        "foodName": "Momo mia meal",
+        "price": 7.99,
+        "shopName": "Saladworks",
+        "latest": "no"
+    },
+    {
+        "id": 7,
+        "img": "https://www.app.tutorjoes.in/img/food/28.jpg",
+        "foodName": "Orange Juice",
+        "price": 9.99,
+        "shopName": "Ramen House",
+        "latest": "yes"
+    },
+    {
+        "id": 8,
+        "img": "https://www.app.tutorjoes.in/img/food/67.jpg",
+        "foodName": "Milk Halwa",
+        "price": 6.99,
+        "shopName": "Subway",
+        "latest": "no"
+    },
+    {
+        "id": 9,
+        "img": "https://www.app.tutorjoes.in/img/food/120.jpg",
+        "foodName": "Vegetable soup",
+        "price": 3.99,
+        "shopName": "Baskin Robbins",
+        "latest": "yes"
+    },
+    {
+        "id": 10,
+        "img": "https://www.app.tutorjoes.in/img/food/20.jpg",
+        "foodName": "Hyderabad Chicken Dry",
+        "price": 2.49,
+        "shopName": "Dunkin' Donuts",
+        "latest": "no"
+    }
+]
