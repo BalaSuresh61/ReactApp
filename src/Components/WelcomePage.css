@@ -12,8 +12,8 @@
 
 }
 .welcome-container{
-    height: 90vh;
-    width: 95%;
+    /* height: 90vh; */
+    /* width: 95%; */
     border: 1px solid;
     display: flex;
     background-color: white;
@@ -87,13 +87,14 @@
     
     .welcome-container {
       /* flex-direction: column; */
-      height: 150vh;
+      /* height: 150vh; */
       padding-top: 30px;
       padding: 20px;
     }
     .information{
         height: 60vh;
         width: 100%;
+        flex-grow: 1;
     }
     .projects{
         height: 80vh;
@@ -102,7 +103,7 @@
     .project{
         padding: 5px;
         width: 100px;
-        height: 100px;
+        /* height: 100px; */
         cursor: pointer;
     }
     .project h4{
