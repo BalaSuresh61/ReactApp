@@ -49,8 +49,8 @@
     /* overflow: scroll; */
 }
 .project{
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     border: 1px solid black;
     padding: 10px ;
     display: flex;
@@ -86,14 +86,29 @@
     }
     
     .welcome-container {
-      flex-direction: column;
-      height: 170vh;
+      /* flex-direction: column; */
+      height: 150vh;
       padding-top: 30px;
       padding: 20px;
     }
-    .information,
-    .projects{
-        height: 70vh;
+    .information{
+        height: 60vh;
         width: 100%;
+    }
+    .projects{
+        height: 80vh;
+        width: 100%;
+    }
+    .project{
+        padding: 5px;
+        width: 100px;
+        height: 100px;
+        cursor: pointer;
+    }
+    .project h4{
+        font-size: 14px;
+    }
+    .project p{
+        font-size: 10px;
     }
   }
